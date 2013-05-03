@@ -12,6 +12,11 @@
     border-bottom: 3px dotted #77d;
   }
 
+  .list_image {
+    width:  60px;
+    height: 70px;
+  }
+
   /* An entry in the store catalog */
   .entry {
     overflow: auto;
@@ -35,11 +40,19 @@
       color: #227;
     }
 
+//#START:inline
     p, div.price_line {
       margin-left: 100px;
       margin-top: 0.5em; 
       margin-bottom: 0.8em; 
+
+      /* START_HIGHLIGHT */
+      form, div {
+        display: inline;
+      }
+      /* END_HIGHLIGHT */
     }
+//#END:inline
 
     .price {
       color: #44a;
@@ -49,4 +62,3 @@
   }
 }
 /* END_HIGHLIGHT */
-
